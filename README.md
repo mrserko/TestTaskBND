@@ -7,13 +7,14 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone git@github.com:mrserko/TestTaskBND.git
-   cd people-detection
+   cd TestTaskBND
    ```
 
 2. Создайте виртуальное окружение и активируйте его:
 
    ```bash
-   python -m venv venv
+   python -m venv venv # на Windows
+   python3 -m venv venv # на Linux/Mac
    venv\Scripts\activate # на Windows
    source venv/bin/activate # на Linux/Mac
    ```
@@ -31,7 +32,8 @@
 2. Запустите скрипт для детекции людей:
 
    ```bash
-   python main.py
+   python main.py # Windows
+   python3 main.py # Linux/Mac
    ```
 
 3. Выходное видео с обнаруженными людьми будет сохранено в файл output_crowd.mp4.
